@@ -1,5 +1,6 @@
 # Path-Planning
-Use sensor fusion, localization, and prediction to safely drive on a highway
+
+![alt text](https://github.com/clintonadams23/Path-Planning/blob/master/content/lane_change.gif)
 
 ## Goals
 * Safely driving on the highway in the simulator is defined as meeting the following goals:
@@ -43,6 +44,8 @@ If there is another vehicle in the state's destination lane, a cost is applied t
 
 #### Speed Cost
 This cost is proportional to the square of the difference between the state's speed and the speed limit. This encourages the car to try lane changing if possible before slowing down.
+
+
 
 ## Inputs
 #### Main car's localization Data (No Noise)

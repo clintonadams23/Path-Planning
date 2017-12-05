@@ -31,8 +31,8 @@ In this state the cars intended lane will be the current frenet d value plus the
 #### Prepare Lane change
 In this state the cars intended lane will remain the same. It will deccelerate as long as it remains in this state.
 
-Cost functions are continually evaluated on each the possible states and the state with the lowest current total cost is selected. The costs functions are based on the following:
 
+Cost functions are continually evaluated on each the possible states and the state with the lowest current total cost is selected. The costs functions are based on the following:
 #### Offroad Cost
 If the state's frenet d value is outside of the bounds of the highway, a high cost is applied. Otherwise no cost is applied.
 
